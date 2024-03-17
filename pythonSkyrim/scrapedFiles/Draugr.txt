@@ -1,0 +1,893 @@
+
+
+
+
+Skyrim:Draugr - The Unofficial Elder Scrolls Pages (UESP)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skyrim:Draugr
+
+The UESPWiki – Your source for The Elder Scrolls since 1995
+< Skyrim: Creatures: Undead
+Jump to: navigation, search
+
+
+
+
+Contents
+
+
+1 Appearance and Types
+2 Characteristics
+
+2.1 Combat Strategies
+2.2 Draugr Thrall
+2.3 Draugr
+2.4 Restless Draugr
+2.5 Draugr Overlord
+2.6 Draugr Wight
+2.7 Draugr Wight Lord
+2.8 Draugr Scourge
+2.9 Draugr Scourge Lord
+2.10 Hulking DraugrDB
+2.11 Draugr Deathlord
+2.12 Draugr Death Overlord
+
+
+3 Named Draugr
+4 Dialogue
+5 Hearthfire
+6 Notes
+7 Bugs
+8 See Also
+
+8.1 Books
+
+
+9 Gallery
+
+
+
+
+
+
+
+A draugr using the thu'um
+
+
+
+
+
+
+A female draugr
+
+
+Draugr are ancient Nordic warriors who have been reanimated. Most draugr were followers of dragon priests in ancient times. When these priests died, their followers were killed, reanimated, and then sealed into the tomb where they would periodically awaken in order to worship the priests and transfer energy to them to maintain their undead state. Some draugr instead guard nobility and treasures buried in barrows and tombs. They often rest in catacombs or sarcophagi to awaken and fight when disturbed or alerted.
+
+Appearance and Types[edit]
+Despite the advanced embalming techniques of the ancient Nords, time has taken its toll on draugr's physical appearance. Their soft tissues are severely decomposed, and their armor does little to conceal the fact that much of their flesh is rotting away, exposing the underlying skeletal structure. All draugr have piercing blue eyes. Male and female draugr appear at similar rates, but at higher levels, males far outnumber females. Higher rank draugr are clearly recognizable by their increasingly more impressive helmets and equipment. The Draugr Deathlords and Death Overlords will almost always carry ebony equipment and are most recognizable by their unobtainable versions of the ancient Nord helmets.
+Characteristics[edit]
+Most draugr are immune to poison and have a 50% resistance to frost. However, the Hallowed Dead found in Labyrinthian are not immune to poison and are 33% weaker to magic.
+The specific variety of draugr that you meet is generally level-dependent. However, this also depends on the location at which they're encountered. In addition, draugr may be spellcasters, archers, one-handed melee fighters, or two-handed melee fighters; this is unspecified by their names, which only indicate their class. Draugr that begin appearing early in the game are equipped with ancient Nordic weapons, which are similar in strength to steel weaponry, and ancient Nord armor, similar in quality to iron armor, which is unlootable. The more powerful draugr that appear at higher levels often use ebony weapons and equipment, and may have the ability to use one or more Dragon Shouts in combat, including Unrelenting Force, Disarm, and sometimes even Frost Breath.
+You will often encounter draugr enthralled by necromancers or hostile mages, such as those found in the Nordic ruin of Ansilvund where the draugr are forced to mine.
+For information about dead, static draugr which can be looted, see this page.
+Combat Strategies[edit]
+Eliminate weaker types before fighting the stronger ones. Archers can deal a lot of damage during a battle, but they often shoot from a distance, sometimes making it easy to hide or take cover from them while dealing with nearer enemies. Stronger draugr can be very dangerous to most players, and should be attacked from a distance when possible. If you are a mage, avoid the use of frost spells, but concentrate on the two remaining elements: flames to constantly inflict damage, and shock to drain the enemy's magicka pool. Flaming Familiars, Flame Atronachs and Storm Atronachs will be particularly potent.
+You can often perform a sneak attack on a draugr sleeping in its alcove and kill it before it is able to attack. Even if you fail to kill it immediately, you should have time for one or two more hits while it climbs out of its resting place. Remaining undetected, even by sleeping draugr, can be challenging, as they are quite sensitive, and this increases with stronger versions. Dragon priests, who guard some Nordic ruins, are extremely dangerous opponents, but can often be defeated from a distance by using the Invisibility and Muffle effects to evade detection.
+You can lure draugr into many of the traps common in Nordic ruins, which can be very effective. Dart traps are not helpful in this regard, as most draugr are immune to poison.
+When engaging with high level draugr that use the Unrelenting Force and Disarm shouts, you may wish to save frequently in case a treasured weapon is thrown and you cannot find it again. Wards (including the ward effect that the unique shield Spellbreaker provides when blocking) will render any shout harmless, from draugr or other sources.
+Draugr are unable to attack and have no defenses while the animation plays as they emerge from their tomb. Attacking them during this time can quickly eliminate them before they can strike.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Draugr Thrall[edit]
+
+
+
+
+A Draugr Thrall
+
+
+Draugr Thralls are the weakest variant of draugr in the game and inhabit only two locations: Folgunthur and Reachwater Rock. There are two classes of Draugr Thrall: Warriors and mages. They are encountered only during the quest Forbidden Legend.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+Warrior
+(000ABAA1)
+1
+12
+0
+200
+None
+Petty
+
+
+Warlock
+(000ABAA2)
+1
+50
+150
+50
+None
+Petty
+
+
+
+Draugr[edit]
+
+
+
+
+A female Draugr
+
+
+Draugr are the second weakest variant. You will commonly encounter them in all areas of Skyrim province. You will find them at all game levels, but they are most prevalent before you reach around level 10, when stronger types become predominant.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0003B547)
+1
+50
+0
+80
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Petty
+
+
+
+Restless Draugr[edit]
+
+
+
+
+A Restless Draugr
+
+
+Restless Draugr begin appearing when you are at game level 6, and will continue appearing even when you are at very high levels. They are slightly stronger than standard draugr.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0003B548)
+(0005B753)
+6
+150
+0
+205
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+(0003B548)
+6
+150
+50
+180
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+(0003B548)
+6
+175
+0
+205
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+
+Draugr Overlord[edit]
+
+
+
+
+A Draugr Overlord
+
+
+Draugr Overlords are likely the first draugr boss you will encounter in Skyrim. They are formidable opponents for most players at lower game levels. Saving your game and pausing to develop a strategy for defeating them can be useful. At higher levels, it is highly unlikely you will encounter such a variant of draugr. Draugr bosses are most commonly seen guarding the ancient word walls. They can also use the thu'um.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0004247B)
+7
+210
+0
+260
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+
+Draugr Wight[edit]
+
+
+
+
+A Draugr Wight
+
+
+Draugr Wights are a fairly challenging common variant of draugr for the amateur adventurer, and start appearing in leveled lists fairly early. A ranged attack strategy is useful against these opponents as they tend not to favor the bow.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0003B549)
+(0005B754)
+13
+320
+0
+340
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+(00038A26)
+13
+490
+100
+280
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+(0003BE21)
+13
+400
+0
+340
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+
+Draugr Wight Lord[edit]
+
+
+
+
+A Draugr Wight Lord
+
+
+Draugr Wight Lords can be very challenging opponents to lower level adventurers, as they appear in leveled lists quite early in the game. They are a mid-range boss and will show no mercy to anyone who disturbs their peace. They are also the first draugr boss who will use the Disarm shout against you and any followers.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0004247C)
+15
+490
+0
+450
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Lesser
+
+
+
+Draugr Scourge[edit]
+
+
+
+
+A Draugr Scourge
+
+
+Draugr Scourges are a mid-range, common variant of draugr who can be tough to fight if you have a poor defensive strategy. Draugr Scourges are the first common variant of draugr that have the ability to use the ancient power of the thu'um. They will appear quite frequently from level 21 onward, unlike Draugr Wights. While in combat, they commonly summon Frost Atronachs, which can add to the difficulty of the battle. They are most recognizable by their unobtainable version of the Ancient Nord Helmet.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0003B54A)
+(0005B755)
+21
+700
+0
+480
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+(0003B54A)
+21
+700
+160
+380
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+(0003B54A)
+21
+900
+0
+480
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+
+Draugr Scourge Lord[edit]
+
+
+
+
+A Draugr Scourge Lord
+
+
+Draugr Scourge Lords are very formidable opponents, especially to unprepared adventurers. They have nearly as much health as a Draugr Deathlord and even more stamina, so it is advised to take extreme caution when in combat with one, as they appear at relatively low levels. Most recognizable by their unobtainable version of the Ancient Nord Helmet.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0004247D)
+24
+880
+0
+595
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+
+Hulking DraugrDB[edit]
+
+
+
+
+A Hulking Draugr
+
+
+Hulking Draugr are mid-level common variants of draugr, added by the Dragonborn add-on. They wear very different armor from the other draugr types, which appears to be a Dragon Cult robe decorated with stylized dragon heads on the shoulders. Their statistics are similar to the Draugr Scourge Lord, firmly placing them among the more challenging types of undead enemies, especially to unprepared adventurers. They sometimes carry a unique Dented Iron Shield.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(xx02A6FE)
+26
+800
+0
+505
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Common
+
+
+
+Draugr Deathlord[edit]
+
+
+
+
+A Draugr Deathlord
+
+
+Draugr Deathlords are the highest level common variant draugr to be found within Skyrim. They are the first of the two variants of draugr that carry powerful ebony equipment, making them very dangerous opponents. Draugr Deathlords always wear their unique unobtainable version of the Ancient Nord Helmet, visually similar to the Helm of Yngol. Their health and attacks are brutal on their own, but they also use the thu'um - and unlike their lesser counterparts, a Draugr Deathlord's Unrelenting Force shout is powerful enough to ragdoll the player character at times, making them even more of a challenge to the unprepared adventurer.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0003B54B)
+(0005B756)
+(0003BE23)
+30
+1000
+10
+575
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Greater
+
+
+(00044C5B)
+(000640B7)
+40
+1300
+10
+625
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Grand
+
+
+
+Draugr Death Overlord[edit]
+
+
+
+
+A Draugr Death Overlord
+
+
+Draugr Death Overlords are the most powerful draugr appearing in Skyrim. It is advised to take extreme caution when in combat with these ruthless opponents, as they use high quality ebony equipment and a range of dragon shouts, including Unrelenting Force and Disarm. They are the highest level of boss draugr before the unmerciful dragon priests, which start to appear at level 50. Draugr Death Overlords always wear their unique unobtainable version of the Ancient Nord Helmet visually similar to the Helm of Yngol.
+
+
+ID
+Lvl
+
+
+Sta.
+Carries
+Soul
+
+
+(0004247E)
+34
+1290
+10
+645
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Greater
+
+
+(0004247F)
+45
+1400
+10
+700
+Bone Meal (1 × 25%)
+Leveled Gold (1 × 25%)
+Random Draugr Loot (1 × 75%)
+Grand
+
+
+
+
+
+
+Named Draugr[edit]
+
+
+Name
+Notes
+
+
+Curalmil
+The end boss of Forsaken Cave. At higher levels, he may be a dragon priest.
+
+
+Fjori
+Encountered at the end of the dungeon in Ansilvund.
+
+
+GatekeeperDB
+Encountered in the Temple of Miraak after learning a word of the Dragon Aspect dragon shout.
+
+
+Guardian Saerek
+One of the two boss-level draugr encountered in Ragnvald
+
+
+Guardian Torsten
+One of the two boss-level draugr encountered in Ragnvald
+
+
+Halldir
+The end boss of Halldir's Cairn
+
+
+Holgeir
+Encountered at the end of the dungeon in Ansilvund.
+
+
+Jyrik Gauldurson
+The eldest of the Gauldurson brothers, encountered in Saarthal
+
+
+King Olaf One-Eye
+The final boss of Dead Men's Respite
+
+
+Mikrul Gauldurson
+The youngest of the Gauldurson brothers, encountered in Folgunthur
+
+
+Red Eagle
+A boss-level draugr encountered in Rebel's Cairn, during the related quest. At higher levels, he may be a dragon priest.
+
+
+Sigdis Gauldurson
+The middle Gauldurson brother, encountered in Geirmund's Hall
+
+
+Warlord Gathrik
+The end boss of Ironbind Barrow. At higher levels, he may be a dragon priest.
+
+
+Dialogue[edit]
+In addition to using the Thu'um, draugr often shout in the dragon language during combat. Some of these phrases include:
+
+
+
+
+"Aav dilon!"
+"Bolog aaz, mal lir!"
+"Daanik Kendov!"
+"Dir volaan!"
+"Faaz! Paak! Dinok!"
+
+
+
+
+"Kren sosaal!"
+"Qiilaan us dilon!"
+"Sovngarde saraan!"
+"Unslaad Krosis!"
+
+
+
+
+Hearthfire[edit]
+With the installation of the Hearthfire add-on, you have the ability to create draugr statues in the trophy room addition of any homestead, should you choose to build it. Available options include a draugr in the midst of sheathing its sword on a large base, and a draugr nocking an arrow to its bow on a small base. The materials needed for each option are:
+
+
+Large Base Draugr
+
+Small Base Draugr
+
+
+
+
+
+
+
+5 Bone Meal
+Ancient Nord Sword
+Straw
+
+
+
+
+
+
+
+
+5 Bone Meal
+6 Ancient Nord Arrow
+Ancient Nord Bow
+Straw
+
+
+
+
+
+Notes[edit]
+
+All draugr belong to the Creature Faction and the DraugrFaction. The Draugr Thrall belongs to the dunFolgunthurThrallFaction as well.
+Several spectral Draugr can be found in Labyrinthian during the quest The Staff of Magnus, along with Spectral Warhounds. These Draugr versions drop spectral weapons, including the Drainheart Sword, Drainblood Battleaxe, and Drainspell Bow.
+For draugr at rest (in a niche or standing) in a catacomb a good rule of thumb is that if it is wearing clothes, it can come to life and attack.
+Draugr that are naked and nearly skeletal, draugr on the second tier of niches, and draugr wrapped like mummies cannot come to life. These draugr act like burial urns and if the player has the Prowler's Profit ability from the Thieves Guild Stones of Barenziah quest they will contain gemstones.
+Draugr and Draugr Deathlords do not have a magic using version; they can only be archers, one-handed and two-handed fighters. Hulking Draugr also cannot be magic users, but archers and two-handed melee fighters do not exist for that type. Draugr Death Overlords can only be one-handed melee fighters; archers, magic users and two-handed fighters for their type don't exist. All non-named boss Draugr also cannot cast spells, and instead will be either a one-handed or two-handed melee fighter; boss Draugr also cannot be of the archery class.
+If you manage to disarm a Draugr (either through the Disarm shout or the Disarming Bash perk in the Block skill tree), they have a unique animation for unarmed attacks, and very low unarmed damage. If there is a replacement weapon around (such as an Iron Battleaxe), they will equip and use it, even if they weren't a two-handed melee fighter in the first place.
+
+Bugs[edit]
+
+Dragons and draugr are considered enemies, even though dragon priests are allies to both.
+
+ The Unofficial Skyrim Patch addresses this issue. Dragons and draugr are no longer hostile to one another.
+
+
+
+See Also[edit]
+
+For historical information, see the lore article.
+
+Books[edit]
+
+Amongst the Draugr by Bernadette Bantien, College of Winterhold — Discoveries about the draugr and their link to the dragon cults
+
+Gallery[edit]
+
+
+
+
+
+
+
+A female Draugr Scourge.
+
+
+
+
+
+
+
+
+
+A male Draugr Scourge.
+
+
+
+
+
+
+
+
+
+A male Draugr Thrall.
+
+
+
+
+
+
+
+
+
+A female Draugr Restless.
+
+
+
+
+
+
+
+
+
+A Draugr attacking.
+
+
+
+
+
+
+
+
+
+Retrieved from "https://en.uesp.net/w/index.php?title=Skyrim:Draugr&oldid=2930405"
+Categories: Skyrim-Creatures-UndeadSkyrim-Creatures-AllSkyrim-Creatures-Undead-DraugrSkyrim-Factions-Creature FactionSkyrim-Factions-DraugrFactionSkyrim-Bugs Fixed by the Unofficial Skyrim PatchHidden category: MetaTemplate-Load 
+ 
+
+
+
+
+Navigation menu
+
+Views
+
+
+Skyrim
+Discussion
+Edit
+History
+
+
+
+
+Personal tools
+
+
+Not logged in Talk
+Contributions
+Create account
+Log in
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+general
+
+
+HelpHow to ContributeRecent ChangesRandom PageView Mobile SiteAndroid App 
+
+
+
+Content
+
+
+All ContentLoreGeneralModsElder Scrolls OnlineSkyrimOblivionMorrowindDaggerfallArenaCastlesBladesLegendsRedguardBattlespireTravelsSkyrim TAGCall to ArmsSkyrim VSEPinballBooksMerchandiseFeatured Content 
+
+
+
+Community
+
+
+Community PortalAdmin NoticeboardDiscord
+
+Join Server
+
+FacebookInstagramTumblrTwitchX (Twitter)BlogForumsPatreonHosted Wikis
+
+Starfield WikiOblivion CS WikiSkyrim CK WikiFallout 3 GECK WikiFallout 4 CK Wiki
+
+AffiliatesContact UsLinks 
+
+
+
+Tools
+
+
+What Links Here
+Related changes
+Special Pages
+Printable Version
+Permanent Link
+Page information
+Cite this page
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ This page was last edited on 18 February 2024, at 14:39.
+All content is available under the terms of the Attribution-ShareAlike 2.5 License.
+Privacy Policy
+About UESPWiki
+Disclaimers
+Mobile view
+
+
+
+
+
