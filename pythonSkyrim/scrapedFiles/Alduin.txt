@@ -1,462 +1,62 @@
-
-
-
-
 Skyrim:Alduin - The Unofficial Elder Scrolls Pages (UESP)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Skyrim:Alduin
-
-The UESPWiki – Your source for The Elder Scrolls since 1995
-< Skyrim: Creatures: Monsters
-Jump to: navigation, search
-
-
-
-Alduin
-(lore page)
-
-
-Location
-Throughout Skyrim, Sovngarde
-
-
-Species
-Dragon
-Soul
-Dragon
-
-
-Level
-PC×1.2 (range=10-100)
-Type
-Monsters
-
-
-
-
-BaseID
-0008E4F1
-
-
-Other Information
-
-
-Health
-2355-3405
-Magicka
-50
-
-
-Stamina
-80-380
-
-
-Primary Skills
-Archery, Block, One-handed, Sneak
-
-
-Perks
-Reduced Damage 0.5
-
-
-Essential
-Yes, until Dragonslayer.
-
-
-Faction(s)
-MQ101AlduinFaction; Used by dragonrend shout
-
-
-
-
-
-
-Alduin
-
-
-
-
-
-
-The dragon Viinturuth with Alduin, right after being resurrected
-
-
-Alduin, or the World-Eater, as he is known to the residents of Skyrim, is an immensely powerful Dragon, and the main antagonist of the Main Quest. He is depicted as a malevolent force who destroys the world periodically, and the Nords believe that his reappearance heralds the end of time. He is the self-proclaimed First-Born of Akatosh and aspect of Akatosh. His name can be separated into "Al-Du-In", which means "Destroyer Devour Master" in Dragon Language.
-He has a 50% resistance to fire and a 25% weakness to frost, and knows the Fire Breath, Frost Breath and Unrelenting Force shouts, as well as the Dragon Storm Call shout unique to him.
-
-Resurrection of Dragons[edit]
-During the quest A Blade in the Dark, Alduin resurrects the dead dragon Sahloknir from his burial place, revealing how the rest of the dragons have returned after being slain centuries ago. After this quest, you may get to see the rare occasion where Alduin resurrects another, leveled dragon.
-When resurrecting other dragons, Alduin can be spotted from a distance, and more easily heard thanks to his roars. It's easy to distinguish Alduin from other dragons, as he will stay far in the distance, flying around, unlike normal wild dragons (who will fly right to you). Alduin won't leave this location until you approach [verification needed], and as soon as you get close enough, he will say "(dragon name) zil gro dovah ulse!" then use the shout "Slen Tiid Vo!". A new dragon will appear (having been resurrected) and respond to Alduin, after which Alduin flies away and the resurrected dragon attacks you. It is possible to interrupt the resurrection by attacking Alduin, which causes him to become hostile and fly away [verification needed].
-Alduin will have a brief conversation during resurrection. He will say the name of either Vuljotnaak, Viinturuth, or Nahagliiv, depending on which dragon he is resurrecting:
-
-(dragon name): "Alduin, thuri!"
-Alduin: "Alok, (dragon name). Tiid boaan."
-
-Related Quests[edit]
-
-Unbound: Escape Imperial custody and a dragon attack.
-A Blade in the Dark: Prove you are Dragonborn to Delphine by slaying the dragon Sahloknir.
-Alduin's Wall: Locate the prophecy within Sky Haven Temple.
-Alduin's Bane: Exploit the Time-Wound to learn Dragonrend and defeat Alduin at the Throat of the World.
-The Fallen: Capture and interrogate an ally of Alduin.
-Sovngarde: Seek out Alduin within Sovngarde.
-Dragonslayer: Put an end to the World-Eater.
-
-Quest-Related Events[edit]
-Unbound[edit]
-Moments before you are executed in Helgen, Alduin lands in the town and begins to unleash carnage, incidentally allowing you to escape execution with Ralof. His movement throughout the town will follow you as you progress. First, he will break open the watchtower containing Ralof and Jarl Ulfric Stormcloak, killing a Stormcloak Soldier. Next, he will kill Torolf with his Fire Breath shout near Hadvar. Alduin will then land on a wall as you and Hadvar pass near it, before taking to the skies and moving freely throughout the town, Shouting at various soldiers.
-While destroying the town, Alduin may speak in the Dragon language:
+"Alduin, thuri!"
+"Alok, (dragon name). Tiid boaan."
 
 "Hin sil fen nahkip bahloki."
 "Nust wo ni qiilaan fen kos duaan."
 
-Throughout Helgen Keep, the battle with Alduin in the town rages on, causing door blockages and cave-ins within the dungeon. After at last escaping, Alduin can be seen soaring away, flying over Bleak Falls Barrow to an unknown location.
-A Blade in the Dark[edit]
-While resurrecting Sahloknir in Kynesgrove:
+"Sahloknir, ziil gro dovah ulse! Slen Tiid Vo!"
 
-Alduin: "Sahloknir, ziil gro dovah ulse! Slen Tiid Vo!"
+"Alduin, thuri! Boaan tiid vokriiha suleyksejun kruziik?"
 
-When the dragon, Sahloknir, is whole once more, he has a conversation in the dragon language with Alduin:
+"Geh, Sahloknir, kaali mir.
 
-Sahloknir: "Alduin, thuri! Boaan tiid vokriiha suleyksejun kruziik?"
-Alduin: "Geh, Sahloknir, kaali mir.
+"Ful, losei Dovahkiin? Zu'u koraav nid nol dov do hi. You do not even know our tongue, do you? Such arrogance, to dare take for yourself the name of Dovah. Sahloknir, krii daar joorre."
 
-Turning to you: "Ful, losei Dovahkiin? Zu'u koraav nid nol dov do hi. You do not even know our tongue, do you? Such arrogance, to dare take for yourself the name of Dovah. Sahloknir, krii daar joorre."
-After ordering Sahloknir to kill you, Alduin flies away.
-Alduin's Bane[edit]
-Time Wound[edit]
-While the Nords draw their weapons, Alduin will land atop the word wall and speak:
-Alduin: "Meyye! Tahrodiis aanne! Him hinde pah liiv! Zu'u hin daan!"
-Gormlaith: "Let those that watch from Sovngarde envy us this day!"
-At this point, the Nords will release the Dragonrend Shout. When they Shout, you will automatically learn it. In the skies, Alduin will feel mortality rise through his body and will be forced to land:
-Alduin: "Nivahriin joorre! What have you done? What twisted Words have you created?! Tahrodiis Paarthurnax! My teeth to his neck! But first... dir ko maar. You will die in terror, knowing your final fate... To feed my power when I come for you in Sovngarde!"
-Gormlaith: "If I die today, it will not be in terror. You feel fear for the first time, worm. I see it in your eyes. Skyrim will be free!"
-The three Nords will then proceed to attack the World-Eater, but to no avail. Alduin will pick up Gormlaith between his teeth and fling her to the right, killing her:
-Hakon: "No, damn you! It's no use! Use the Scroll, Felldir! Now!"
-Felldir: "Hold, Alduin on the Wing! Sister Hawk, grant us your sacred breath to make this contract heard! Begone, World-Eater! By words with older bones than your own we break your perch on this age and send you out! You are banished! Alduin, we shout you out from all our endings unto the last!"
-Alduin: "Faal Kel...?! Nikriinne..."
-A surprised Alduin will futilely breathe fire at Felldir before disappearing into the flow of time, to an unknown era.
-Present[edit]
-Directly after the cutscene, when you arrive back in the present, Alduin will appear at the Throat of the World, shouting:
+"Meyye! Tahrodiis aanne! Him hinde pah liiv! Zu'u hin daan!"
 
-Alduin: "Bahloki nahkip sillesejoor. My belly is full of the souls of your fellow mortals, Dovahkiin. Die now and await your fate in Sovngarde!"
-Paarthurnax: "Lost funt. You are too late, Alduin! Dovahkiin! Use Dragonrend, if you know it!"
-Alduin: "Suleyki mulaag, Paarthurnax. My power has waxed, while yours has waned. Aav uv dir. Join me or perish with your mortal friends."
+"Nivahriin joorre! What have you done? What twisted Words have you created?! Tahrodiis Paarthurnax! My teeth to his neck! But first... dir ko maar. You will die in terror, knowing your final fate... To feed my power when I come for you in Sovngarde!"
+
+"Faal Kel...?! Nikriinne..."
+
+"Bahloki nahkip sillesejoor. My belly is full of the souls of your fellow mortals, Dovahkiin. Die now and await your fate in Sovngarde!"
+
+"Suleyki mulaag, Paarthurnax. My power has waxed, while yours has waned. Aav uv dir. Join me or perish with your mortal friends."
+
 Paarthurnax: "Unslaad hokoron! Never again!"
 
-
-
-
-
-Alduin battles Paarthurnax at the Throat of the World
-
-
-Paarthurnax and Alduin will take flight, attacking each other in the air. During the battle, Alduin may say some of the following taunts:
-
-"Dovahkiin, you call yourself? Arrogant mortal."
 "Bahloki nahkip sillesejoor."
-"I will feast on your soul in Sovngarde!"
-"You are no match for me, joor!"
-"Paarthurnax is weak. I am strong."
-"My time has come again."
+
 "Maar saraan ko Sovngarde."
-"I have feasted on many greater than you."
-"You will pay for your defiance!"
-"You may have picked up the weapons of my ancient foes, but you are not their equal!"
-
-When Alduin is grounded he may say:
-
-"My teeth to your neck, Dovahkiin!"
-
-When Alduin's health drops to zero, he says:
 
 "Meyz mul, Dovahkiin. You have become strong. But I am Al-du-in, Firstborn of Akatosh! Mulaagi zok lot! I cannot be slain here, by you or anyone else! You cannot prevail against me. I will outlast you... mortal!"
 
-He will then fly off to Skuldafn to regain his power.
-Dragonslayer[edit]
-After travelling to Sovngarde and discovering Alduin's Soul Snare, the player will have to navigate through the fog in search of the Hall of Valor. Alduin appears at multiple points within the mist, either lurking on ground-level or soaring overhead. If you take too long, Alduin will swoop down and kill a Stormcloak Soldier and an Imperial Soldier.
-Returning to the outdoors of Sovngarde from the Hall of Valor with the three ancient Nord heroes will launch an attempt to dispel Alduin's Soul Snare. After using Clear Skies:
+"Ven Mul Riik!"
 
-Alduin: "Ven Mul Riik!"
-Gormlaith: "Again!"
-Felldir: "We can shatter his power if we Shout together!"
-
-After Shouting again:
-
-Alduin: "Ven Mul Riik!"
-Hakon: "Does his strength have no end? Is our struggle in vain?"
-Gormlaith: "Stand fast! His strength is failing! Once more, and his might will be broken!"
-Felldir: "His power crumbles - do not pause for breath!"
-
-As he flies in:
-
-Alduin: "Face me, then! Zu'u Alduin!"
-
-With his fog shield dissipated, Alduin will have no choice but to face you in open combat. He is immune to damage until hit by Dragonrend. Alduin is functionally very similar to most other dragons, his only significant difference being a tendency to crawl backwards while Shouting, creating distance between him and his attacker. With the three Nord heroes on your side (and potentially Tsun, if Alduin attacks him), Alduin should go down fairly easily. Avoid his fire breath, as it can be deadly even for high level players. If you are having trouble defeating him, range counters him fairly well.
-During the battle, Alduin may use the following taunts, issued to either you or the Nord heroes:
+"Face me, then! Zu'u Alduin!"
 
 "You are persistent, Dovahkiin. Pruzah ol aar. A fine slave you would have made."
 "Dovahkiin, hin kah fen kos bonaar."
 
-
-
-
-The death of Alduin
-
-
-
 "Zu'u lost daal."
+
 "I have already defeated your friends once. Beyn. I do not fear them."
+
 "Kel drey ni viik."
+
 "Di kiirre fen alok."
+
 "Daar Lein los dii."
+
 "Pahlok joorre! Hin kah fen kos bonaar."
+
 "Zu'u Alduin, zok sahrot do naan ko Lein."
+
 "Zu'u lost kriaan hi ont, nu hin sille fen nahkip suleyki."
+
 "Dovahkiin, you should not have come here. Nu hin sil dii."
+
 "Zu'u ni faas gaaffesejul."
 
-
-When Alduin's health is fully depleted, he will enter a hunched state and become immune to all damage, other than the player. Be sure to heal if you are on low health, as the meteors can still kill you and Alduin will never recover. After dealing the final blow, Alduin will writhe and thrash, screaming:
-
-Alduin: "Zu'u unslaad! Zu'u nis oblaan!
-
-After crying out, Alduin explodes, leaving behind a wispy, golden-glowing black skeleton which soon fades away. With Alduin dead, Sovngarde returns to its ethereal state and the main story of Skyrim comes to an end.
-Notes[edit]
-
-Alduin has a special passive ability, "AbAlduinInvulnerability" in the editor, which renders him invulnerable to harm so long as he is not affected by Dragonrend (or, as the conditions on the effect detail, "is allowed to fly").
-If you encounter Alduin during the resurrection of a dragon, he can be hit with any long-ranged attack. However, it appears that he is not actually hit, as no health bar appears. He does appear as hostile at that moment, showing as a red dot on your compass. The red dot will disappear after Alduin flies away again.
-During the resurrection of a dragon, Alduin will occasionally Shout, darkening the sky.
-Alduin has a unique Shout called Dragon Storm Call, which is very similar to Storm Call, and causes fiery meteors to rain from the sky.
-If you deal enough damage to him when he is resurrecting a dragon, he will crash land on the ground, then take flight again and fly off.
-Alduin is voiced by Daniel Riordan.
-There's a very small chance that Alduin will use Unrelenting Force on you if you try to damage him while he is resurrecting a dragon.
-The version of Alduin encountered in the past during Alduin's Bane (BaseID 4377F, RefID 4377E), is a static level 100 and boasts 6905 health.
-It is impossible to loot Alduin, even though the option presents itself while his body dissipates. However, it is possible to harvest dragon heartscales from him.
-Alduin's soul is not absorbed. You can later discuss the ramifications of this with Arngeir unless you have antagonized him by killing Paarthurnax.
-Alduin is the highest level dragon in the game; boasting a max level of 100.
-Alduin’s damage scales as the player levels up; at level 100 his breath is equivalent to an ancient dragon. Interestingly, his bite damage remains static, always being that of a regular dragon.
-Alduin is the only dragon in the game that can use both fire and frost breath.
-
-Bugs[edit]
-
-When encountering Alduin raising a dragon as a random encounter, chasing him off before he completes the resurrection causes the dragon burial mound to become stuck in the 'bonfire of energy' state.
-
- This can be fixed using the console, at least as far as the visual effects go: look upwards at the 'bonfire', open the console, click on the fire effect and use the disable command. Look at the middle of the dragon mound, click on it, and use the disable command again. This will make both the special effect and the mound cover disappear.
-
-
-After learning Dragonrend during Alduin's Bane, Alduin will sometimes be invincible.
-
-The Official Skyrim Patch, version 1.9, fixes this bug.
-Escaping the battle by running down the Throat of the World and fast-traveling back appears to make him vulnerable to damage again.
-
-
-
-Gallery[edit]
-
-
-
-
-
-
-
-Alduin breathing fire over Sovngarde
-
-
-
-
-
-
-
-
-
-
-
-
-v
-t
-e
-
-
-Dragons
-
-
-
-
-
-
-Skyrim Dragons
-
-Alduin • Mirmulnir • Nahagliiv • Odahviing • Paarthurnax • Sahloknir • Viinturuth • Vuljotnaak • Vulthuryol
-
-
-
-
-
-
-Dawnguard Dragons
-
-Durnehviir • Naaslaarum • Voslaarum
-
-
-
-
-
-
-Dragonborn Dragons
-
-Krosulhah • Kruziikrel • Relonikiv • Sahrotaar
-
-
-
-
-
-
-
-
-
-
-
-Retrieved from "https://en.uesp.net/w/index.php?title=Skyrim:Alduin&oldid=2891665"
-Categories: Skyrim-Creatures-AllSkyrim-Creatures-MonstersSkyrim-Creatures-Monsters-DragonSkyrim-Essential CreaturesSkyrim-Souls-DragonSkyrim-Factions-MQ101AlduinFactionSkyrim-Factions-Used by dragonrend shoutSkyrim-Confirmed BugsSkyrim-Bugs Fixed by the Official Skyrim PatchHidden categories: MetaTemplate-LoadAll Pages Needing VerificationSkyrim-Pages Needing Verification 
- 
-
-
-
-
-Navigation menu
-
-Views
-
-
-Skyrim
-Discussion
-Edit
-History
-
-
-
-
-Personal tools
-
-
-Not logged in Talk
-Contributions
-Create account
-Log in
-
-
-
-
-
-
-
-Search
-
-
-
-
-
-
-
-
-
-
-
-general
-
-
-HelpHow to ContributeRecent ChangesRandom PageView Mobile SiteAndroid App 
-
-
-
-Content
-
-
-All ContentLoreGeneralModsElder Scrolls OnlineSkyrimOblivionMorrowindDaggerfallArenaCastlesBladesLegendsRedguardBattlespireTravelsSkyrim TAGCall to ArmsSkyrim VSEPinballBooksMerchandiseFeatured Content 
-
-
-
-Community
-
-
-Community PortalAdmin NoticeboardDiscord
-
-Join Server
-
-FacebookInstagramTumblrTwitchX (Twitter)BlogForumsPatreonHosted Wikis
-
-Starfield WikiOblivion CS WikiSkyrim CK WikiFallout 3 GECK WikiFallout 4 CK Wiki
-
-AffiliatesContact UsLinks 
-
-
-
-Tools
-
-
-What Links Here
-Related changes
-Special Pages
-Printable Version
-Permanent Link
-Page information
-Cite this page
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- This page was last edited on 3 January 2024, at 12:23.
-All content is available under the terms of the Attribution-ShareAlike 2.5 License.
-Privacy Policy
-About UESPWiki
-Disclaimers
-Mobile view
-
-
-
-
-
+"Zu'u unslaad! Zu'u nis oblaan!
