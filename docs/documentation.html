@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elder Scrolls Semester Project</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="icon" type="image/png" href="images/27229-2-realistic-dragon-photos.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>The Dov8bot</h1>
+        <h3>By Tyler Gaydos and Owen Helm</h3>
+        <header>
+            <!--<img class="banner" src="images/DragonFight-1024x576.jpg" alt="A picture of the Dragonborn fighting a dragon."/>-->
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="documentation.html">Project Documentation</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </header>
+        <div>
+            <h2>Project Documentation</h2>
+            <p>The goal of this project is to create a text-generating bot that can take input and respond in dovahzul, the constructed language (or conlang) of the dragons from <em>Elder Scrolls V: Skyrim</em>.</p>
+            <p>The sources for this project can be found under the Sources tab at the top navigation bar. Our primary source for the conlang came from <a href="https://www.thuum.org/">Thu'um.org</a>, a community-driven community dedicated to learning and use of dovahzul. Using the 5th Edition Dragon-English dictionary, as well as some scraped text files from <a href="https://en.uesp.net/wiki/Main_Page">The Unofficial Elder Scrolls Pages</a> wiki, we were able to assemble a small collection of files of the language in action.</p>
+            <p>Once our source files were formatted, we turned to <a href="https://huggingface.co/">Huggingface.co</a> to find a pretrained LLM (large language model) which we could train with our dragon text files. We settled on <a href="https://huggingface.co/bigscience/bloom">BLOOM</a>, a LLM made to continue text from a prompt and output text in 46 different languages.</p>
+            <p>Currently, we are experimenting with BLOOM and learning how to feed it our training data.</p>
+        </div>
+    </body>
+</html>

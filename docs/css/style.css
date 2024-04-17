@@ -55,3 +55,6 @@ header{
 h1{
     font-family: dragonFont;
 }
+div{
+    background-color: #99A3A499; /*light grey*/
+}
