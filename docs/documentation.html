@@ -24,5 +24,19 @@
             <p>Once our source files were formatted, we turned to <a href="https://huggingface.co/">Huggingface.co</a> to find a pretrained LLM (large language model) which we could train with our dragon text files. We settled on <a href="https://huggingface.co/bigscience/bloom">BLOOM</a>, a LLM made to continue text from a prompt and output text in 46 different languages.</p>
             <p>Currently, we are experimenting with BLOOM and learning how to feed it our training data.</p>
         </div>
+        <div>
+            <h3>The Process</h3>
+            <p>This project began with webscraping. Owen put together a webscraper which allowed us to pull text from <a href="https://en.uesp.net/wiki/Main_Page">The Unofficial Elder Scrolls Pages</a>,found the dictionary from <a href="https://www.thuum.org/">Thu'um.org</a>, as well as finding a downloadable text file of the script of <em>Skyrim</em>, which included the main questlines for the base game as well as DLC. At the same time, Tyler (with the help of Dr. Bondar) was at work deciphering the special dragon font that was used in the dictionary, which is described further in our Challenges page.</p>
+            <p>Once the font was deciphered (the key we made can be found in our <a href="https://github.com/gylertaydos/Elder-Scrolls-Dovahzul">Github Repo</a>), we had to prepare our files for use. Tyler performed Regex on the script to eliminate all text except those Tyler and Owen deemed relevant to the project. The dialogue deemed relevant included lines spoken by dragons and the Greybeards. After regex was performed to clean up the script, XSLT was ran to select only the relevant lines.</p>
+            <pre><code>
+                &lt;xsl:output method="text"/>
+                &lt;xsl:template match="root">
+                    &lt;xsl:apply-templates select="//dia[@speaker = 'Alduin' or @speaker = 'Paarthurnax' or @speaker = 'Odahviing' or @speaker = 'Mirmulnir' or @speaker = 'Greybeards' or @speaker = 'Miraak' or @speaker = 'Sahrotaar' or @speaker = 'Sahloknir' or @speaker = 'Durnehviir']"/>
+                &lt;/xsl:template>
+                &lt;xsl:template match="dia">
+                    &lt;xsl:apply-templates />&lt;xsl:text>
+            &lt;/xsl:text>
+            &lt;/xsl:template></code></pre>
+        </div>
     </body>
 </html>
