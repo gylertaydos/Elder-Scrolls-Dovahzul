@@ -31,9 +31,6 @@ ul.nav{
     width: 100vw;
     z-index: 2;
 }
-a{
-    color: #0099ff;
-}
 li a{
     display: block;
     color: white;
