@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Elder Scrolls Semester Project</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <link rel="icon" type="image/png" href="images/27229-2-realistic-dragon-photos.png"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="css/images/27229-2-realistic-dragon-photos.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
         <h1>The Dov8bot</h1>
         <h3>By Tyler Gaydos and Owen Helm</h3>
         <header>
-            <!--<img class="banner" src="images/DragonFight-1024x576.jpg" alt="A picture of the Dragonborn fighting a dragon."/>-->
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
                 <li><a href="documentation.html">Project Documentation</a></li>
-                <li><a href="analysis.html">Analysis</a><li>
+                <li><a href="challenges.html">Project Challenges</a></li>
                 <li><a href="sources.html">Sources</a></li>
             </ul>
         </header>
         <div>
             <h2>Project Documentation</h2>
             <p>The goal of this project is to create a text-generating bot that can take input and respond in dovahzul, the constructed language (or conlang) of the dragons from <em>Elder Scrolls V: Skyrim</em>.</p>
-            <p>The sources for this project can be found under the Sources tab at the top navigation bar. Our primary source for the conlang came from <a href="https://www.thuum.org/">Thu'um.org</a>, a community-driven community dedicated to learning and use of dovahzul. Using the 5th Edition Dragon-English dictionary, as well as some scraped text files from <a href="https://en.uesp.net/wiki/Main_Page">The Unofficial Elder Scrolls Pages</a> wiki, we were able to assemble a small collection of files of the language in action.</p>
-            <p>Once our source files were formatted, we turned to <a href="https://huggingface.co/">Huggingface.co</a> to find a pretrained LLM (large language model) which we could train with our dragon text files. We settled on <a href="https://huggingface.co/bigscience/bloom">BLOOM</a>, a LLM made to continue text from a prompt and output text in 46 different languages.</p>
+            <p>The sources for this project can be found under the Sources tab at the top navigation bar. Our primary source for the conlang came from <a href="https://www.thuum.org/" target="_blank">Thu'um.org</a>, a community-driven community dedicated to learning and use of dovahzul. Using the 5th Edition Dragon-English dictionary, as well as some scraped text files from <a href="https://en.uesp.net/wiki/Main_Page" target="_blank">The Unofficial Elder Scrolls Pages</a> wiki, we were able to assemble a small collection of files of the language in action.</p>
+            <p>Once our source files were formatted, we turned to <a href="https://huggingface.co/" target="_blank">Huggingface.co</a> to find a pretrained LLM (large language model) which we could train with our dragon text files. We settled on <a href="https://huggingface.co/bigscience/bloom" target="_blank">BLOOM</a>, a LLM made to continue text from a prompt and output text in 46 different languages.</p>
             <p>Currently, we are experimenting with BLOOM and learning how to feed it our training data.</p>
         </div>
         <div>
             <h3>The Process</h3>
-            <p>This project began with webscraping. Owen put together a webscraper which allowed us to pull text from <a href="https://en.uesp.net/wiki/Main_Page">The Unofficial Elder Scrolls Pages</a>,found the dictionary from <a href="https://www.thuum.org/">Thu'um.org</a>, as well as finding a downloadable text file of the script of <em>Skyrim</em>, which included the main questlines for the base game as well as DLC. At the same time, Tyler (with the help of Dr. Bondar) was at work deciphering the special dragon font that was used in the dictionary, which is described further in our Challenges page.</p>
-            <p>Once the font was deciphered (the key we made can be found in our <a href="https://github.com/gylertaydos/Elder-Scrolls-Dovahzul">Github Repo</a>), we had to prepare our files for use. Tyler performed Regex on the script to eliminate all text except those Tyler and Owen deemed relevant to the project. The dialogue deemed relevant included lines spoken by dragons and the Greybeards. After regex was performed to clean up the script, XSLT was ran to select only the relevant lines.</p>
+            <p>This project began with webscraping. Owen put together a webscraper which allowed us to pull text from <a href="https://en.uesp.net/wiki/Main_Page" target="_blank">The Unofficial Elder Scrolls Pages</a>,found the dictionary from <a href="https://www.thuum.org/" target="_blank">Thu'um.org</a>, as well as finding a downloadable text file of the script of <em>Skyrim</em>, which included the main questlines for the base game as well as DLC. At the same time, Tyler (with the help of Dr. Bondar) was at work deciphering the special dragon font that was used in the dictionary, which is described further in our Challenges page.</p>
+            <p>Once the font was deciphered (the key we made can be found in our <a href="https://github.com/gylertaydos/Elder-Scrolls-Dovahzul" target="_blank">Github Repo</a>), we had to prepare our files for use. Tyler performed Regex on the script to eliminate all text except those Tyler and Owen deemed relevant to the project. The dialogue deemed relevant included lines spoken by dragons and the Greybeards. After regex was performed to clean up the script, XSLT was ran to select only the relevant lines.</p>
             <pre><code>
                 &lt;xsl:output method="text"/>
                 &lt;xsl:template match="root">
@@ -38,7 +38,10 @@
                     &lt;xsl:apply-templates />&lt;xsl:text>
             &lt;/xsl:text>
             &lt;/xsl:template></code></pre>
-            <p>Once we had all the necessary files, our next goal was to create a network visualization. After some discussion with Dr. Bondar on how to best utilize our avaliable resources, we decided to use various scraped files obtained from <a href="https://en.uesp.net/wiki/Main_Page">The Unofficial Elder Scrolls Pages</a>, which we would compare against each other. Namely, the files that we analyzed were those relating to some important dragons within <i>The Elder Scrolls V: Skyrim</i>'s story.</p>
+            <p>Once we had all the necessary files, our next goal was to create a network visualization. After some discussion with Dr. Bondar on how to best utilize our avaliable resources, we decided to use various scraped files obtained from <a href="https://en.uesp.net/wiki/Main_Page" target="_blank">The Unofficial Elder Scrolls Pages</a>, which we would compare against each other. Namely, the files that we analyzed were those relating to some important dragons within <i>The Elder Scrolls V: Skyrim</i>'s story.</p>
+        </div>
+        <div class="cc">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gylertaydos.github.io/Elder-Scrolls-Dovahzul/">Dovahbot</a> by <span property="cc:attributionName">Tyler Gaydos and Owen Helm</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></img></a></p>
         </div>
     </body>
 </html>

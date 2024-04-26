@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Elder Scrolls Semester Project</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <link rel="icon" type="image/png" href="images/27229-2-realistic-dragon-photos.png"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="css/images/27229-2-realistic-dragon-photos.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
         <h1>The Dov8bot</h1>
         <h3>By Tyler Gaydos and Owen Helm</h3>
         <header>
-            <!--<img class="banner" src="images/DragonFight-1024x576.jpg" alt="A picture of the Dragonborn fighting a dragon."/>-->
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
                 <li><a href="documentation.html">Project Documentation</a></li>
-                <li><a href="analysis.html">Analysis</a><li>
+                <li><a href="challenges.html">Project Challenges</a></li>
                 <li><a href="sources.html">Sources</a></li>
             </ul>
         </header>
         <div>
-            <h2>Welcome to the project page for Tyler Gaydos and Owen Helm of the DIGIT210 class from Penn State Behrend.</h2>
-            <p>Our sources for this project:</p>
+            <h4>Sources of Dragonspeech:</h4>
             <ul class="sources">
-                <li><a href="https://www.thuum.org/library/Dragon_Language_Print_Dictionary_5th_Edition.pdf">5th Edition Dragon Language Dictionary by Thu'um.org</a></li>
-                <li><a href="https://en.uesp.net/wiki/Skyrim:Skyrim">The Unofficial Elder Scrolls Pages</a></li>
-                <li><a href="https://huggingface.co/bigscience/bloom">BLOOM on Huggingface.co</a></li>
+                <li><a href="https://www.thuum.org/library/Dragon_Language_Print_Dictionary_5th_Edition.pdf" target="_blank">5th Edition Dragon Language Dictionary by Thu'um.org</a></li>
+                <li><a href="https://en.uesp.net/wiki/Skyrim:Skyrim" target="_blank">The Unofficial Elder Scrolls Pages</a></li>
+                <li><a href="https://huggingface.co/bigscience/bloom" target="_blank">BLOOM on Huggingface.co</a></li>
             </ul>
+        </div>
+        <div>
+            <h4>Sources Relating to BLOOM and AI:</h4>
+            <ul class="sources">
+                <li><a href="https://towardsdatascience.com/getting-started-with-bloom-9e3295459b65" target="_blank">Article which led to the initial successful generative model tested</a></li>
+                <li><a href="https://stackoverflow.com/questions/50687077/cant-run-any-ipynb-files-using-jupyter-lab-or-jupyter-notebook-filenotfounderr" target="_blank">Stack Overflow post which helped fix problems with python virtual environment after organizing files</a></li>
+                <li><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/4374" target="_blank">Github discussion which led to the discovery of issues regarding the json.config file not being correct.</a></li>
+                <li><a href="https://huggingface.co/bigscience/bloom/discussions/195" target="_blank">Huggingface discussion which led to the discovery of the BLOOM-176B model's absurd system requirements</a></li>
+                <li><a href="https://discuss.huggingface.co/t/bloom-models-dont-run-on-my-gpu-using-transformers/23315" target="_blank">Huggingface discussion post which led to the discovery of the BLOOM-560m model, and our second successful generative test model</a></li>
+                <li><a href="https://docs.e2enetworks.com/AI_ML/tutorials/Fine_tuning_BLOOM.html" target="_blank">Article about fine-tuning BLOOM models</a></li>
+                <li><a href="https://huggingface.co/bigscience/bloom-560m" target="_blank">BLOOM-560m</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Sources of Needed Downloads:</h4>
+            <ul class="sources">
+                <li><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html#pip-wheels" target="_blank">CUDA download</a></li>
+                <li><a href="https://pytorch.org/get-started/locally/" target="_blank">PyTorch download</a></li>
+                <li><a href="https://huggingface.co/bigscience/bloom" target="_blank">BLOOM on Huggingface.co</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>The one incorrect/outdated article (that led to a host of problems when developing a generative test model)</h4>
+            <ul class="sources">
+                <li><a href="https://towardsdatascience.com/run-bloom-the-largest-open-access-ai-model-on-your-desktop-computer-f48e1e2a9a32" target="_blank">Article about running BLOOM on local computer</a></li>
+            </ul>
+        </div>
+        <div class="cc">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gylertaydos.github.io/Elder-Scrolls-Dovahzul/">Dovahbot</a> by <span property="cc:attributionName">Tyler Gaydos and Owen Helm</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></img></a></p>
         </div>
     </body>
 </html>

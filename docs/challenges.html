@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Elder Scrolls Semester Project</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="icon" type="image/png" href="css/images/27229-2-realistic-dragon-photos.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h1>The Dov8bot</h1>
+        <h3>By Tyler Gaydos and Owen Helm</h3>
+        <header>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="documentation.html">Project Documentation</a></li>
+                <li><a href="challenges.html">Project Challenges</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </header>
+        <div>
+            <h2>Challenges</h2>
+            <p>This project faced several challenges throughout its developement, and overcoming these challenges signified significant progress.</p>
+            <p>The first hurdle involved the dovahzul font (the .ttf file can be found in our Github repo, and also can be seen throughout the website). The dragon language has more characters than the standard Roman alphabet (34 characters vs. 26) which meant that extra characters were mapped to the numnbers on the keyboard. Once the extra characters were deciphered (the key for which can be found in our Github repo), we were able to process our source files more accurately.</p>
+            <p>Our project's network graphs took some thinking about what to display. Our sources are few, and there isn't much in there. Once we decided to map the different dragons however, their developement went pretty smoothly.</p>
+        </div>
+        <div>
+            <p>By far the most significant hurdle faced by this project has been the developement of a prospective chatbot. There were several stages to this challenge that have impeded our progress, but also lead to many lessons that have furthered our understanding of LLMs.</p>
+            <p>The biggest overall hurdle involved in this project was the rapid rate at which resources seemed to go out of date. We found a couple articles that, despite only being a max of 2 years old, were already incorrect due to updates to the packages required.</p>
+            <p>To actually break down the specific challenges faced: Firstly was the challenge which all of Digital Media is based on: file management. Setting up a proper virtual environment required careful organization of files. Outdated (and also incorrect) online resources did not help this process.</p>
+            <p>Outdated resources also caused an issue with certain packages being updated and renamed, and older versions of BLOOM LLMs no longer being available. Specifically, the BLOOM-1b3 model being updated and renamed to BLOOM-1b1.</p>
+            <p>A small issue regarding file paths was fixed by a combination of the careful organization of our venv, as well as using <code>os.path.normpath</code> to very specifically tell the python the correct file path.</p>
+            <p>The most significant challenge faced by the AI developement was <code>JSONDecodeError: Expecting value: line 1 column 1 (char 0)</code>. After a day or two of searching online for solutions, it was found that the BLOOM-176B model download that was downloaded for this project did not include all the proper files. Some of the json files that were needed for the operation of this model were actually only pointers to the needed files instead. That was not all though. Through further research, it turns out that the BLOOM-176B model's minimum system requirements were far beyond what any of us had on our machines (400GB of GPU VRAM).</p>
+            <p>It was discovered that the BLOOM-156M model was much smaller, and also had much lower system requirements, which allowed the project to proceed.</p>
+        </div>
+        <div>
+            <p>As it stands currently, the generative AI does not quite function to our goals yet. However, it does generate text (it simply has yet to be trained on any dovahzul data). If/when this project is to be continued in any capacity, it will involve training the BLOOM model on training data consisting of dovahzul.</p>
+            <p>All sources can be found under the Sources tab of our website.</p>
+        </div>
+        <div class="cc">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://gylertaydos.github.io/Elder-Scrolls-Dovahzul/">Dovahbot</a> by <span property="cc:attributionName">Tyler Gaydos and Owen Helm</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></img><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></img></a></p>
+        </div>
+        </body>
+</html>
