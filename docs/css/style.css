@@ -48,7 +48,8 @@ h1{
 }
 div{
     background-color: #99A3A499; /*light grey*/
-    width: 100vw;
+    width: 95vw;
+    margin: auto;
 }
 table{
     border-spacing: 20px;
@@ -57,9 +58,8 @@ th{
     font-family: dragonFont;
 }
 div.cc{
-    position: absolute;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    position: fixed;
     bottom: 0;
     text-align: center;
     padding-top: 15px;
@@ -67,6 +67,15 @@ div.cc{
     background-color: #495050;
     color: white;
 }
+div.container{ 
+    text-align: center;
+    margin-left: 0vw;
+}
+pre{
+    display: inline-block;
+    text-align: left;
+}
+
 /*div.table{
     width: 80%; 
     margin: auto;

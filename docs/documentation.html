@@ -29,15 +29,15 @@
             <h3>The Process</h3>
             <p>This project began with webscraping. Owen put together a webscraper which allowed us to pull text from <a href="https://en.uesp.net/wiki/Main_Page" target="_blank">The Unofficial Elder Scrolls Pages</a>,found the dictionary from <a href="https://www.thuum.org/" target="_blank">Thu'um.org</a>, as well as finding a downloadable text file of the script of <em>Skyrim</em>, which included the main questlines for the base game as well as DLC. At the same time, Tyler (with the help of Dr. Bondar) was at work deciphering the special dragon font that was used in the dictionary, which is described further in our Challenges page.</p>
             <p>Once the font was deciphered (the key we made can be found in our <a href="https://github.com/gylertaydos/Elder-Scrolls-Dovahzul" target="_blank">Github Repo</a>), we had to prepare our files for use. Tyler performed Regex on the script to eliminate all text except those Tyler and Owen deemed relevant to the project. The dialogue deemed relevant included lines spoken by dragons and the Greybeards. After regex was performed to clean up the script, XSLT was ran to select only the relevant lines.</p>
-            <pre><code>
-                &lt;xsl:output method="text"/>
-                &lt;xsl:template match="root">
+            <div class="container"><pre><code>
+            &lt;xsl:output method="text"/>
+            &lt;xsl:template match="root">
                     &lt;xsl:apply-templates select="//dia[@speaker = 'Alduin' or @speaker = 'Paarthurnax' or @speaker = 'Odahviing' or @speaker = 'Mirmulnir' or @speaker = 'Greybeards' or @speaker = 'Miraak' or @speaker = 'Sahrotaar' or @speaker = 'Sahloknir' or @speaker = 'Durnehviir']"/>
                 &lt;/xsl:template>
                 &lt;xsl:template match="dia">
                     &lt;xsl:apply-templates />&lt;xsl:text>
-            &lt;/xsl:text>
-            &lt;/xsl:template></code></pre>
+                &lt;/xsl:text>
+            &lt;/xsl:template></code></pre></div>
             <p>Once we had all the necessary files, our next goal was to create a network visualization. After some discussion with Dr. Bondar on how to best utilize our avaliable resources, we decided to use various scraped files obtained from <a href="https://en.uesp.net/wiki/Main_Page" target="_blank">The Unofficial Elder Scrolls Pages</a>, which we would compare against each other. Namely, the files that we analyzed were those relating to some important dragons within <i>The Elder Scrolls V: Skyrim</i>'s story.</p>
         </div>
         <div class="cc">
