@@ -1,37 +1,37 @@
-@font-face{
+@font-face {
     font-family: dragonFont;
     src: url(dragon_alphabet.ttf);
 }
 
-body{
+body {
     text-align: center;
     letter-spacing: 1px;
     background-image: url(images/5f4e25a0e58dce8864df35d7562417b8.jpg);
     background-color: #F9F9F9; /*white*/
-    background-size: 100vw;
+    background-size: 100%; /*OH: Changed every instance of vx to % to remove horizontal scroll bar*/
     background-attachment: fixed;
-    margin-left: calc(-50vw + 50%);
+    margin: 0;
 }
-header{
+header {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
     background-color: #495050;
     position: sticky;
-    width: 100vw;
+    width: 100%;
 }
 
-ul.nav{
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-size: large;
     top: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 2;
 }
-li a{
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -43,37 +43,56 @@ li {
     display: inline-block;
     list-style-type: none;
 }
-h1{
+h1 {
     font-family: dragonFont;
 }
-div{
+div:not(.cc){
     background-color: #99A3A499; /*light grey*/
-    width: 95vw;
-    margin: auto;
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #495050; /*OH: Added a border to the gray boxes for better clarity*/
+    border-radius: 4px;
 }
-table{
+table {
     border-spacing: 20px;
 }
-th{
+th {
     font-family: dragonFont;
 }
-div.cc{
-    width: 100vw;
+div.cc {
+    width: 100%;
     position: fixed;
     bottom: 0;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px; /*OH: Reduced padding from 15px to 10px*/
     padding-bottom: 5px;
     background-color: #495050;
     color: white;
 }
-div.container{ 
-    text-align: center;
-    margin-left: 0vw;
+div.container { /*OH: Updated while troubleshooting with the change to the XSLT code block*/
+    text-align: left;
+    width: 95%;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
-pre{
+pre {
     display: inline-block;
     text-align: left;
+}
+body {
+    padding-bottom: 70px; /*OH: Added padding to the bottom of each page to make room for the copyright bar*/
+}
+pre { /*OH: This part was added to the CSS to properly format/fit the XSLT onto the documentation page*/
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0;
+}
+li a:hover { /*OH: Made it so when hovering over certain elements there is a visible color shift for visual feedback*/
+    background-color: #333;
 }
 
 /*div.table{
